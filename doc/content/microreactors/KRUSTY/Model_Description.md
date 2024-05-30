@@ -1,6 +1,6 @@
 # KRUSTY Model Description
 
-*Model link: [GCMR Assembly Model](https://github.com/idaholab/virtual_test_bed/microreactors/KRUSTY)*
+*Model link: [KRUSTY](https://github.com/idaholab/virtual_test_bed/microreactors/KRUSTY)*
 
 The Kilopower Reactor Using Stirling Technology (KRUSTY) is a kilopower test reactor which was developed for space exploration missions [1]. This document describes a VTB model that details the work sponsored by DOE NEAMS under the Micro-Reactor Application Drivers area from 2022-2023 [2-4]. The multiphysics model was developed based on the technical work published in the open literature [5-10] and a detailed MCNP6 model included in the ICSBEP HEU-MET-FAST-101 handbook [11]. Approximations have been made in the surrounding areas of the fuel disk to alleviate the burden of creating an equivalent mesh model with good mesh quality and reasonable mesh size. The simplified model will be detailed in Section I of this document.
 
