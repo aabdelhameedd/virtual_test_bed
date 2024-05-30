@@ -52,7 +52,7 @@ The MC2-3 calculation takes a two-step approach. The first step creates energy s
 
 
 
-# Table III. The 40-Energy Group Structure for Modeling KRUSTY
+**Table III. The 40-Energy Group Structure for Modeling KRUSTY**
 
 | Group # | Upper bond (MeV) | Group # | Upper bond (MeV) | Group # | Upper bond (MeV) |
 |---------|-------------------|---------|-------------------|---------|-------------------|
@@ -144,7 +144,7 @@ BISON was utilized to conduct thermo-mechanical simulations. In KRUSTY, the fuel
 
 For a thermo-mechanical model, thermophysical properties (i.e., thermal conductivity, density, specific heat, and thermal expansion coefficient) and mechanical properties (i.e., elastic modulus) of all the involved components are needed. Table IV lists the BISON/MOOSE models used for thermo-mechanical simulations. BISON doesn't include models for KRUSTY’s U-7.65Mo fuel material, so the thermal conductivity of U-10Mo and specific heat of U-8Mo are currently applied. Other thermal and mechanical attributes for U-7.65Mo and B4C were sourced from the open literature or based on certain assumptions. The displacements in the “soft materials” regions are not solved using MOOSE’s tensor mechanics solver as the solid components. Instead, simple diffusion is used for these regions to simply propagate the deformation of the solid components.
 
-### Table IV. Thermophysical and Elasticity Models Used for Thermo-Mechanical Simulation
+**Table IV. Thermophysical and Elasticity Models Used for Thermo-Mechanical Simulation**
 
 | BISON/MOOSE models                   | Materials | Description                                           |
 |--------------------------------------|-----------|-------------------------------------------------------|
