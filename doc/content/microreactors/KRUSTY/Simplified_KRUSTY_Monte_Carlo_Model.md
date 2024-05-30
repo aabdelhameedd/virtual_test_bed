@@ -12,7 +12,7 @@ The simplified MCNP6 model was obtained for this VTB model through the following
 
 The eigenvalue from the simplified MCNP6 model is listed in Table II and is compared with that obtained from the ICSBEP benchmark model. The results show that using ENDF/B-VIII.0, the simplified MCNP6 model is close to the detailed ICSBEP model with a slightly larger k-eff of about 34 pcm. An equivalent Serpent model of the simplified MCNP6 model was created for providing reference solutions and generating multigroup cross sections for the Griffin neutronic model. Its k-eff agreed with the result from the MCNP6 model as shown in Table II. With all heat pipe locations filled and the use of the ENDF/B-VII.0 library, the reference k-eff for the Griffin neutronic calculation is 1.00590±3 pcm.
 
-# Table I. Key Geometry Parameters of ANL Simplified Model
+ **Table I. Key Geometry Parameters of ANL Simplified Model**
 
 | Label | Value (cm) | Label | Value (cm) | Label | Value (cm) | Label | Value (cm) |
 |-------|------------|-------|------------|-------|------------|-------|------------|
@@ -23,7 +23,7 @@ The eigenvalue from the simplified MCNP6 model is listed in Table II and is comp
 | H1    | 28.6043    | H2    | 25.0012    |       |            |       |            |
 
 
-# Table II. Calculated k-eff from KRUSTY Monte Carlo Models
+**Table II. Calculated k-eff from KRUSTY Monte Carlo Models**
 
 | Model                | k-eff                      |
 |----------------------|----------------------------|
