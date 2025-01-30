@@ -109,7 +109,14 @@ The first step is to generate homogenized multi-group cross-sections using Serpe
 
 
 
+
+!listing microreactors/gcmr/core/ISOXML/Serpent_Model/serpent_input.i  max-height = 10000
+
+
+
+
 !listing microreactors/gcmr/core/Neutronics/Griffin_steady_state.i
+
 
 
 ## Run Commands
